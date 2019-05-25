@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$primary: #16a085;
+@mixin center {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+@mixin medium-screen() {
+  @media only screen and (min-width: 900px) {
+    @content;
+  }
+}
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 10px;
+  background: $primary;
+}
+
+.main-container {
+  height: 100vh;
+  @include center;
+}
+#quote-box {
+  padding: 1rem;
+  width: 100%;
+  @include center;
+  grid-gap: 2rem;
+  @include medium-screen {
+    width: 50%;
+    background: white;
+  }
+}
+.buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  .button {
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background: $primary;
+    padding: 0.5rem;
+    border: none;
+    display: block;
+  }
+}
+
+.quote-container {
+  padding: 1.5rem;
+}
