@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-quote-generator/static/css/main.9f75d465.chunk.css",
+    "main.js": "/react-quote-generator/static/js/main.c002d535.chunk.js",
+    "main.js.map": "/react-quote-generator/static/js/main.c002d535.chunk.js.map",
+    "runtime~main.js": "/react-quote-generator/static/js/runtime~main.b9c71da4.js",
+    "runtime~main.js.map": "/react-quote-generator/static/js/runtime~main.b9c71da4.js.map",
+    "static/js/2.5d907561.chunk.js": "/react-quote-generator/static/js/2.5d907561.chunk.js",
+    "static/js/2.5d907561.chunk.js.map": "/react-quote-generator/static/js/2.5d907561.chunk.js.map",
+    "index.html": "/react-quote-generator/index.html",
+    "precache-manifest.e75e2dc0c98c3b410e301a2c0a598d04.js": "/react-quote-generator/precache-manifest.e75e2dc0c98c3b410e301a2c0a598d04.js",
+    "service-worker.js": "/react-quote-generator/service-worker.js",
+    "static/css/main.9f75d465.chunk.css.map": "/react-quote-generator/static/css/main.9f75d465.chunk.css.map"
+  }
+}
